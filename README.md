@@ -33,21 +33,7 @@ This backend provides **RESTful APIs** for employee management, attendance track
 - SQL Server (2019 or higher)  
 - npm or yarn  
 
-### 🔹 Setup
-```bash
-# Clone the repository
-git clone https://github.com/BassamRamadan2611/HR-System-Backend.git
-cd hrms-backend
-
-# Install dependencies
-npm install
-
-
-
-
-
-## 🚀 API Endpoints
-
+### 🔹🚀 API Endpoints
 ### 🔑 Authentication
 | Method | Endpoint | Description | Access |
 |--------|-----------|-------------|---------|
