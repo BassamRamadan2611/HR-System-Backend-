@@ -41,3 +41,41 @@ cd hrms-backend
 
 # Install dependencies
 npm install
+
+
+
+
+
+Environment Variables
+
+Create a .env file in the root directory:
+
+PORT=5000
+DB_SERVER=localhost
+DB_USER=your_sql_server_username
+DB_PASSWORD=your_sql_server_password
+DB_NAME=hrms_database
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRES_IN=7d
+
+🔹 Database Setup
+
+Create database: hrms_database
+
+Run the provided SQL scripts to create tables
+
+🔹 Run the Application
+# Development mode
+npm run dev
+
+# Production mode
+npm start
+
+📖 API Documentation
+
+Swagger is available at:
+👉 http://localhost:5000/api-docs
+
+Base URL:
+
+http://localhost:5000
